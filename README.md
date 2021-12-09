@@ -137,7 +137,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
   - ansible hosts file
-  - ![ansible-hosts-groupings](C:\Users\Owner\OneDrive\Documents\CyberSecurity\Elk-stack-Project\Images\ansible-hosts-groupings.PNG)
+  - ![ansible-hosts-groupings.PNG](Images/ansible-hosts-groupings.PNG)
 
 - _Which URL do you navigate to in order to check that the ELK server is running?
   - http://[your.ELK-VM.External.IP]:5601/app/kibana
