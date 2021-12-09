@@ -1,0 +1,13 @@
+Commands used in terminal to set up ansible/ dockers/ VMs.
+
+Logging into Jumpbox- provisioner
+	- ssh Redadmin@20.120.87.191
+
+Running Docker container
+	- Sudo docker container list -a
+	- sudo docker start stoic_lehmann
+	- sudo docker attach stoic_lehmann
+Once playbooks are configured run them.
+	- ansible-container install-elkbeat.yml
+	- ansible-container filebeat-playbook.yml
+	- ansible-container metricbeat-playbook.yml
