@@ -136,7 +136,7 @@ _TODO: Answer the following questions to fill in the blanks:_
   - /etc/filebeat/filebeat-playbook.yml
 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-  - ansible hosts file [hosts](https://github.com/connor-nash119/Elk-stack-Project/blob/main/Ansible/ansible-hosts-file.txt)
+  - ansible hosts file [hosts](Ansible/ansible-hosts-file.txt)
   - ![ansible-hosts-groupings.PNG](Images/ansible-hosts-groupings.PNG)
 
 - _Which URL do you navigate to in order to check that the ELK server is running?
